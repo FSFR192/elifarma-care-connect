@@ -6,11 +6,10 @@ import {
   Instagram, Facebook, ArrowRight, Navigation,
 } from "lucide-react";
 
-import logo from "@/assets/elifarma-logo.asset.json";
-import fachada from "@/assets/fachada.asset.json";
-import interior1 from "@/assets/interior1.asset.json";
-import interior2 from "@/assets/interior2.asset.json";
-import interior3 from "@/assets/interior3.asset.json";
+const fachada = { url: "/images/fachada.jpg" };
+const interior1 = { url: "/images/interior1.jpg" };
+const interior2 = { url: "/images/interior2.jpg" };
+const interior3 = { url: "/images/interior3.jpg" };
 
 export const Route = createFileRoute("/")({
   component: Landing,
